@@ -46,6 +46,14 @@ expressRouter.post('/', (req, res, next) => {
         res.status(400).send("You must add a valid quote or person.");
     }
 });
-//POST Requests END////////////////////////////
+//POST Requests END/////////////////////////////
+
+//PUT Requests START////////////////////////////
+
+//PUT Requests END//////////////////////////////
+
+//DELETE Requests START/////////////////////////
+
+//DELETE Requests END///////////////////////////
 
 module.exports = expressRouter;
